@@ -1,0 +1,120 @@
+.sectorWrapper {
+  @include card;
+}
+
+button.button {
+  border-radius: 100rem;
+  padding: 1rem;
+  font-family: 'AstroSpace', cursive;
+  font-size: 1rem;
+  padding: .5rem 3rem;
+  color: $white;
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 3px transparent;
+  background-image: linear-gradient(rgba(84, 255, 187, 0), rgba(89, 181, 62, 0)), linear-gradient(101deg, #54ffbb, #59b53e);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #000 inset;
+}
+
+button.button:hover {
+  box-shadow: none;
+  color: $grey;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.sector {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-color: $black;
+  background-blend-mode: overlay;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+
+  @include smallMedia {
+    min-height: 400px;
+    align-items: flex-start;
+    padding: 48px 0;
+    background-size: cover;
+  }
+
+  .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $white;
+    transition: all 0.5s;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 28px;
+    max-width: 900px;
+
+    @include smallMedia {
+      justify-content: center;
+    }
+
+    @include extraSmallMedia {
+      padding: 20px;
+    }
+
+    .clip {
+      position: relative;
+
+      @include smallMedia {
+        display: none;
+      }
+
+      & > img {
+        width: 430px;
+        height: auto;
+        opacity: 0.9;
+        filter: grayscale(0.8);
+        -webkit-filter: grayscale(0.8);
+      }
+
+      &::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(transparent, $black);
+      }
+    }
+
+    .header{
+      text-align: center;
+    }
+
+    .auction {
+      width: 900px;
+      text-align: center;
+
+      h2 {
+        @include gradientFont($gradient-primary);
+        font-size: 36px;
+        font-weight: 600;
+        font-family: $font-primary;
+        margin-bottom: 50px;
+      }
+
+      p {
+        color: $grey-100;
+        line-height: 28px;
+        font-size: 18px;
+
+        & > b {
+          color: $white;
+        }
+      }
+    }
+  }
+}
