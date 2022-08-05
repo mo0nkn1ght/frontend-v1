@@ -1,4 +1,16 @@
 # Getting Started with Create React App
+![](https://img.shields.io/netlify/df4b9404-a8b8-42b5-9665-bffdd5616819?style=plastic)
+![](https://komarev.com/ghpvc/?username=mo0nkn1ght&label=Profile%20views&color=0e75b6&style=plastic)
+![](https://img.shields.io/github/last-commit/mo0nkn1ght/frontend-v1?style=plastic)
+![](https://img.shields.io/github/search/mo0nkn1ght/mo0nkn1ght/frontend-v1?style=plastic)
+![](https://img.shields.io/github/directory-file-count/mo0nkn1ght/frontend-v1?style=plastic)
+![](https://img.shields.io/github/languages/code-size/mo0nkn1ght/frotnend-v1?style=plastic)
+![](https://img.shields.io/github/issues/mo0nkn1ght/frontend-v1?style=plastic)
+
+![](https://img.shields.io/twitter/follow/StarSystem_Labs?style=social)
+![](https://img.shields.io/github/followers/mo0nkn1ght?style=social)
+</br>
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
