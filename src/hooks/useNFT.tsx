@@ -5,7 +5,7 @@ import { Contract } from '@ethersproject/contracts';
 import { useEffect } from 'react';
 import { toast } from 'react-hot-toast';
 
-import AutoBotABI from '../global/ABI/AutoBotABI.json';
+import AutoBotABI from '../global/ABI/NFTABI.json';
 
 export function useWhitelistMint() {
   const abi = new Interface(AutoBotABI);

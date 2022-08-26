@@ -14,7 +14,7 @@ export default function FaqSector() {
       If you have it on your Coinbase wallet, move it to your Metamask Wallet or any wallet that supports Web3 and burn it with Otto. Otto will automatically send the citizen $MNBASE & $METO in return for their $WLUNA.`,
     },
     {
-      title: 'Will there be a ICO?',
+      title: 'Will there be an ICO?',
       content: `No just show up with your $WLUNA!`,
     },
     {
@@ -36,16 +36,29 @@ export default function FaqSector() {
     },
     {
       title: 'What can I do with $METO?',
-      content: '$METO can be used to add liquidity with $BNB, then staked to earn passive $MNBASE or sold on the market.',
+      content:
+        '$METO will mainly be used to lock and aqcuire our planned governance voting token $COMET, but can also be used to add liquidity, then staked to earn passive $MNBASE or sold on the market.',
     },
     {
       title: 'What will be the start value of $MNBASE & $METO?',
-      content: '$MNBASE will start at 1: 10,000 $WLUNA – start at $0.10. $METO will be 1: 10,000,000 $WLUNA – start at $10.',
+      content: '$MNBASE will start at 1: 1,000 $WLUNA – starting at $0.01. $METO will be 1: 1,000,000 $WLUNA – starting at $1.',
     },
     {
       title: 'How does the team make money? Is there a risk of them dumping?',
       content:
         'The team does not have coins to sell, the team only collects fees from transactions in order to cover our running costs as well as the expansion of the SSL ecosystem.',
+    },
+    {
+      title: 'What is the Moonbase Smart Contract?',
+      content: `BSC - 0x11f10aA5AD642F011E97c22B0737D99a311074cD`,
+    },
+    {
+      title: 'What is the Meteor Smart Contract?',
+      content: `BSC - 0xcC8b68eF0f460976b0eec86Af0552F29D354FD50`,
+    },
+    {
+      title: 'What is the AutoBot Smart Contract?',
+      content: `BSC - 0x4aF4653E533fD0e04ce5Eae7F8bEd177c1Dce30c`,
     },
   ];
   const [expanded, setExpanded] = React.useState(null);
@@ -61,7 +74,7 @@ export default function FaqSector() {
           <div className={styles.title}>
             <h2>FAQ</h2>
           </div>
-          <div className={styles.content}>
+          <div className={styles.content_faq}>
             <div className={styles.faqs}>
               {STARSYSTEMLABS_FAQS.map((item, index) => (
                 <Accordion expanded={expanded === `panel${index}`} onChange={handleChange(`panel${index}`)} key={item.title}>
@@ -73,7 +86,7 @@ export default function FaqSector() {
               ))}
             </div>
             <div className={styles.clip}>
-              <img src="/images/GIF.gif" />
+              <img src="/images/poster.gif" />
             </div>
           </div>
         </div>

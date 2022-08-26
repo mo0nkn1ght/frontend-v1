@@ -1,4 +1,6 @@
 import { lazy } from 'react';
+import BurnBotSector from 'sectors/home/BurnBotSector';
+import BuySector from 'sectors/home/BuySector';
 
 import { RouteType } from './types';
 
@@ -10,37 +12,55 @@ const APP_ROUTES: RouteType[] = [
     isNavLinked: false,
   },
   {
-    path: '#about',
+    path: '/#about',
     component: undefined,
     title: 'About',
     isNavLinked: true,
   },
   {
-    path: '#burn',
-    component: undefined,
+    path: '/burn',
+    component: BurnBotSector,
     title: 'Burn',
     isNavLinked: true,
   },
   {
-    path: '#whitepaper',
+    path: '/#tokenomics',
+    component: undefined,
+    title: 'Tokennomics',
+    isNavLinked: true,
+  },
+  {
+    path: '/buy',
+    component: BuySector,
+    title: 'Buy',
+    isNavLinked: true,
+  },
+  {
+    path: '/#whitepaper',
     component: undefined,
     title: 'Whitepaper',
     isNavLinked: true,
   },
   {
-    path: '#roadmap',
+    path: '/#multichain',
+    component: undefined,
+    title: 'MultiChain',
+    isNavLinked: true,
+  },
+  {
+    path: '/#roadmap',
     component: undefined,
     title: 'Roadmap',
     isNavLinked: true,
   },
   {
-    path: '#faq',
+    path: '/#faq',
     component: undefined,
     title: 'FAQ',
     isNavLinked: true,
   },
   {
-    path: '#team',
+    path: '/#team',
     component: undefined,
     title: 'Team',
     isNavLinked: true,

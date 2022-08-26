@@ -12,6 +12,11 @@ export default function RoadmapSector() {
             <h2>Roadmap</h2>
           </div>
           <div className={styles.item}>
+            <b>Ethereum Launch</b>
+            <span>Launch on ETH chain and subsequent ETH Layer 2 chains that require support for the abandoned Wrapped Luna Holders.</span>
+          </div>
+          <ArrowIcon className={styles.arrow} />
+          <div className={styles.item}>
             <b>LP Injection</b>
             <span>
               A way to breath life into $WLUNA with direct injection of LP to the $WLUNA pair on any chain, although starting wtih injection towards $MNBASE
@@ -21,8 +26,17 @@ export default function RoadmapSector() {
           </div>
           <ArrowIcon className={styles.arrow} />
           <div className={styles.item}>
+            <b>Jupiter UI</b>
+            <span>
+              A new way to track your Star System Labs position. Our UI v2 (Jupiter UI) will have an all in one solution for your Star System Labs asset
+              management. From Token reward traking to NFT viewing and staking, we are dedicated on bringing a single tool for everything. As well as Wrapped
+              Luna Token Metrics to have a solid, consistent source of tokenomic data on Wrapped Luna and Wrapped Lunc.
+            </span>
+          </div>
+          <ArrowIcon className={styles.arrow} />
+          <div className={styles.item}>
             <b>Star System Labs NFT</b>
-            <span>An NFT branch of the Star System Labs Ecosystem in which NFTs will be staked for a reward either in $METO, $MNBASE, or $WLUNA.</span>
+            <span>An NFT branch of the Star System Labs Ecosystem in which NFTs will be staked to boost your reward in $WLUNA.</span>
           </div>
           <ArrowIcon className={styles.arrow} />
           <div className={styles.item}>
@@ -43,7 +57,7 @@ export default function RoadmapSector() {
           <ArrowIcon className={styles.arrow} />
           <div className={styles.item}>
             <b>Mobile App</b>
-            <span>Tracking app for rewards and values. More details TBD on functionality.</span>
+            <span>The mobile implementation of the Jupiter UI. More details TBD on functionality.</span>
           </div>
           <ArrowIcon className={styles.arrow} />
           <div className={styles.item}>
@@ -52,13 +66,13 @@ export default function RoadmapSector() {
           </div>
           <ArrowIcon className={styles.arrow} />
           <div className={styles.item}>
-            <b>Tower Defense Game</b>
-            <span>More details TBD on web3 and game functionality ( A new way to BURN Wrapped Luna, just by playing a game! )</span>
+            <b>Security Audit</b>
+            <span>Smart Contract Security Audit for the entire SSL ecosystem, and upcoming smart contracts!</span>
           </div>
           <ArrowIcon className={styles.arrow} />
           <div className={styles.item}>
-            <b>Security Audit</b>
-            <span>Smart Contract Security Audit for the entire SSL ecosystem, and upcoming smart contracts!</span>
+            <b>Terra Classic Launch</b>
+            <span>Moonbase Protocol full launch on Terra Classic chain. 8% Burn fee direct on Terra Classic.</span>
           </div>
           <p></p>
           <p></p>

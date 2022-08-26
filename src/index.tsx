@@ -1,19 +1,22 @@
-import { Mainnet, Rinkeby, Config, DAppProvider } from '@usedapp/core';
+import { Mainnet, Rinkeby, Goerli, BSC, BSCTestnet, Config, DAppProvider } from '@usedapp/core';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Toaster } from 'react-hot-toast';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { MAINNET_RPC, TESTNTE_RPC } from 'global/constants';
+import { GOERLI_RPC, MAINNET_RPC, TESTNET_RPC, BSCMAIN_RPC, BSCTEST_RPC } from 'global/constants';
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const config: Config = {
   readOnlyChainId: Mainnet.chainId,
-  networks: [Mainnet, Rinkeby],
+  networks: [Mainnet, Rinkeby, Goerli, BSC, BSCTestnet],
   readOnlyUrls: {
     [Mainnet.chainId]: MAINNET_RPC,
-    [Rinkeby.chainId]: TESTNTE_RPC,
+    [Rinkeby.chainId]: TESTNET_RPC,
+    [Goerli.chainId]: GOERLI_RPC,
+    [BSC.chainId]: BSCMAIN_RPC,
+    [BSCTestnet.chainId]: BSCTEST_RPC,
   },
   pollingInterval: 15000,
 };

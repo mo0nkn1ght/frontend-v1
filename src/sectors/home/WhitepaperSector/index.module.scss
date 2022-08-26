@@ -39,6 +39,8 @@
       padding: 20px;
     }
 
+    
+
     h2 {
       @include gradientFont($gradient-primary);
       line-height: 35px;
@@ -78,8 +80,14 @@
         text-align: center;
 
       }
+      
       b {
-        color: $white;
+        font-weight: bolder;
+        color: $tertiary;
+      }
+
+      .warning {
+        color: $secondary;
       }
     }
 

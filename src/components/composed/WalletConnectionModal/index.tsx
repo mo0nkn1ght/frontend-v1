@@ -4,7 +4,7 @@ import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
 import Button from 'components/based/Button';
 import { shortenAddress, useEtherBalance, useEthers } from '@usedapp/core';
-import { injected, walletconnect } from 'global/connectors';
+import { injected, walletconnect, CoinbaseWallet } from 'global/connectors';
 import clsx from 'clsx';
 import { formatAmount } from 'global/utils';
 
@@ -68,6 +68,23 @@ const WalletConnectionModal: FC<WalletConnectionModalProps> = ({ open, onClose }
               <span className={styles.inner}>
                 WalletConnect
                 <small>Scan with WalletConnect to connect</small>
+              </span>
+            </Button>
+            <Button
+              secondary
+              customClass={clsx(styles.button, {
+                [styles.selected]: account && connector === CoinbaseWallet,
+              })}
+              onClick={() => {
+                activate(CoinbaseWallet);
+                onClose();
+              }}
+              fullWidth
+            >
+              <img src="images/wallet/coinbase.svg" />
+              <span className={styles.inner}>
+                Coinbase Wallet
+                <small>Connect your Coinbase Wallet</small>
               </span>
             </Button>
             {account && (

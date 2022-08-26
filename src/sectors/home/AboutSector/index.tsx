@@ -13,17 +13,22 @@ export default function AboutSector() {
             </div>
             <p>
               After the utter collapse of Terra Luna, many holders of WLUNA and the original LUNA(LUNC) were abandoned by Terra Labs, with little to no support
-              on direction, detailed updates, and coopoeration with other large entities leaving many scratching their heads. Star System Labs was created as a
-              response to the abandonment of LUNC/WLUNA holders to give a truly community run, and rewarded project that puts the holders first. The law of
-              conservation of energy states that energy can neither be created nor destroyed - only converted from one form of energy to another. Just because
-              $WLUNA has no monetary value in respects to the dollar (just paper), we believe it still carries economic energy. We see each Wrapped Luna token
-              as an individual Satoshi that needs to be put together into one unit.
+              on direction, detailed updates, and co-operation with other large entities leaving many scratching their heads. Star System Labs was created as a
+              response to the abandonment of LUNC/WLUNA holders to give a truly community run, and rewarded project that puts the holders first. One of the main
+              focus of phase 1 is to <b>BURN</b> Wrapped Luna, giving the Luna Community a 30% burn option to more aggressively reduce the supply of LUNC. Not
+              only are we providing a service that brings a more aggressive burn than the laughable 1.2% burn rate offered, but we also provide Wrapped Luna as
+              rewards in many forms. But how can Star System Labs manage this and provide a robust and secure community run project?
             </p>
             <p></p>
             <p>
               Thus, we present MOONBASE ($MNBASE) & METEOR ($METO). The citizen will bring their $WLUNA and deposits into our WLuna Burn Bot (Otto the AutoBOT),
               the citizen will then receive $MNBASE & $METO as a receipt of their deposit into our economic system. Just like how blood moves around the body,
-              $WLUNA will be the blood of our economic solar system and will benefit every citizen.
+              $WLUNA will be the blood of our economic solar system and will benefit every citizen. The Citizens then can accumulate Wrapped Luna in two forms,
+              first is dividend rewards to Moonbase holders, second is to LP ( Liquidity Pool ) Token stakers. Ensuring that all the Wrapped Luna that goes
+              through the system is either burned <b>OR</b> redistributed to the community.{' '}
+              <b className={styles.warning}>
+                The Team Does not get ANY Wrapped Luna from this process. 100% of it is community controlled for community rewards!
+              </b>
             </p>
             <p></p>
             <p>

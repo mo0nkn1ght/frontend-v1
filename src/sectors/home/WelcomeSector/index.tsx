@@ -5,7 +5,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import styles from './index.module.scss';
 
 export default function WelcomeSector() {
-  const startTime = 1659657600;
+  const startTime = 1659878740;
   const [currentTime, setCurrentTime] = useState(0);
   const intervalRef = useRef<number>();
   const timerShowed = startTime > 0 && currentTime > 0 && currentTime <= startTime;
@@ -27,14 +27,14 @@ export default function WelcomeSector() {
   }, [startTime, currentTime]);
 
   return (
-    <div className={styles.sectorWrapper}>
+    <div className={styles.sectorWrapper} id="home">
       <div className={styles.sector} style={{ backgroundImage: 'url(/images/home/bg.png)' }}>
         <div className={styles.inner}>
           <div className={styles.timer}>
-            <img src="/images/home/bg.png" alt="nftnetics" />
+            <img src="/images/home/bg.png" alt="starsystemlabs" />
             {timerShowed && <b>{duration}</b>}
-            <small className={styles.text}>The WLuna Solution is coming first on BSC!</small>
-            <small className={styles.text}>Get Ready for Star System Labs</small>
+            <small className={styles.text}>Terra Luna First</small>
+            {/*<small className={styles.text}>Lunc over Luna</small>*/}
           </div>
           <div className={styles.socials}>
             <a href={TELEGRAM_LINK} target="_blank" rel="noreferrer">

@@ -18,10 +18,10 @@ export default function TraitSector() {
             </p>
             ️
             <p>
-              <b>- $MNBASE:</b> will be handed out at a ratio of 1 $MNBASE : 10,000 $WLUNA.
+              <b>- $MNBASE:</b> will be handed out at a ratio of 1 $MNBASE : 1,000 $WLUNA.
             </p>
             <p>
-              <b>- $METO:</b> will be handed out at a ratio of 1 $METO : 10,000,000 $WLUNA.
+              <b>- $METO:</b> will be handed out at a ratio of 1 $METO : 1,000,000 $WLUNA.
             </p>
             ️
             <p>
@@ -36,22 +36,28 @@ export default function TraitSector() {
             </p>
             <p>$MNBASE & $METO will have a 10% buy/sell tax. The 10% tax will be divided up as followed:</p>
             <p>
-              <b>- $MNBASE:</b> 2% $WLUNA burn, 4% community distribution, 2% liquidity injection, 1% Dev, 1% Marketing team.
+              <b>- $MNBASE:</b> 1% $WLUNA burn, 5% community distribution, 2% liquidity injection, 1% Dev, 1% Marketing team.
             </p>
             <p>
-              <b>- $METO:</b> 6% LP injection ($MNBASE), 2% Dev, 2% Marketing team.
+              <b>- $METO:</b> 8% LP injection ($MNBASE), 1% Dev, 1% Marketing team.
             </p>
             <p></p>
             <p>
-              There will be <b>no ICO.</b> All that is needed to participate in our economy is $WLUNA. Everything up to this point will be labelled Phase 1.
-              Phase 2 will consist of a governance token and an NFT collection which will boost the payout for those citizens that stake their LP.
+              There will be <b className={styles.warning}>no ICO.</b> All that is needed to participate in our economy is $WLUNA. Everything up to this point
+              will be labelled Phase 1. Phase 2 will consist of a governance token and an NFT collection which will boost the payout for those citizens that
+              stake their LP.
             </p>
             <p>
-              LP injection can be directed at the WLUNA/BNB Pair, but due to the current and ongoing Bot attack that is manipulating the price, we will be
+              LP injection can be directed at the WLUNA Base Pair, but due to the current and ongoing Bot attack that is manipulating the price, we will be
               holding off until the price manipulation has ceased. Until then out LP injection will be pointed at MNBASE/BNB pair as to boost the value of the
               main reciept token, in turn boosting the burn reward for the citizen. The LP injection can be re-aligned to any pair the community selects and
               will be voted on using the coming governance system. Our goals at Star System Labs is to burn Luna, give value to $WLUNA, provide an economic
               service to our citizens, and give back power to the people.
+            </p>
+            <p>
+              <b>the final solution</b> is to launch the Moonbase Protocol directly onto Terra Classic Chain. Moonbase protocol will have only one fee
+              distribution, burn fee. There will be no Terra Classic chain dev/marketing/lp fee. Only holder rewards and Terra Burn. Please check{' '}
+              <b>Multi-Chain Solution</b> section for more details.
             </p>
             <p>
               <img className={styles.img} src="/images/map.png" alt="whitepapermap" />

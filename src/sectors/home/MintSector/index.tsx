@@ -1,6 +1,6 @@
 import { IconButton } from '@material-ui/core';
 import Button from 'components/based/Button';
-import { usePublicMint, useTotalSupply, useWhitelistMint, useWhitelistMintEnabled } from 'hooks/useAutoBot';
+import { usePublicMint, useTotalSupply, useWhitelistMint, useWhitelistMintEnabled } from 'hooks/useNFT';
 import React, { useState } from 'react';
 import { parseEther } from '@ethersproject/units';
 import { useEthers } from '@usedapp/core';

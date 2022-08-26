@@ -23,7 +23,13 @@
     src: url("StreamerSlant.otf") format("truetype");
  }
 
+ @font-face {
+   font-family: 'MoonbaseOmega';
+   src: url("MoonbaseOmega.ttf") format("truetype");
+}
+
 $font-primary: 'Andromeda';
 $font-secondary: 'StreamerSlant';
 $font-tertiary: 'AstroSpace';
 $font-quaternary: 'BeyondMars';
+$font-quinary: 'MoonbaseOmega';

@@ -56,7 +56,6 @@ body {
 .dropdown.selected {
   :global(.dropdown__control) {
     background: $grey-30;
-    color: $primary;
     border: 2px solid #2684ff;
     width: 150px;
   }

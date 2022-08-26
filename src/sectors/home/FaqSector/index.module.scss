@@ -54,9 +54,12 @@
       margin-bottom: 80px;
     }
 
-    .content {
-      display: flex;
+    .content_faq {
+      width: 100%;
       align-items: flex-start;
+      @include minLargeMedia {
+        display: flex;
+      }
 
       .faqs {
         :global(.MuiPaper-elevation1) {

@@ -136,7 +136,7 @@ header {
         }
 
         .connectText {
-          font-family: $font-secondary;
+          font-family: $font-secondary; 
           margin-left: 8px;
           @include extraSmallMedia {
             display: none;

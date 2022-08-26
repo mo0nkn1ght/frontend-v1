@@ -50,8 +50,8 @@ export default function AppHeader() {
             {menuOpen ? <MenuOpenIcon /> : <MenuIcon />}
           </Button>
           <a href="/" className={styles.name}>
-            <img src="/images/meteor.png" className={styles.favicon} />
-            <img src="/images/meteor.png" className={styles.logo} />
+            <img src="/images/logo.png" className={styles.favicon} />
+            <img src="/images/logo.png" className={styles.logo} />
           </a>
         </div>
         <div className={styles.nav}>
