@@ -8,7 +8,7 @@ const APP_ROUTES: RouteType[] = [
   {
     path: '/',
     component: lazy(() => import('pages/Home')),
-    title: 'Home',
+    title: '',
     isNavLinked: false,
   },
   {

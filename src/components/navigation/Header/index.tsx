@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 import APP_ROUTES from 'global/routes';
 import { useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
+//import { HashLink } from 'react-router-hash-link';
 import AccountBalanceWalletIcon from '@material-ui/icons/AccountBalanceWallet';
 import MenuIcon from '@material-ui/icons/Menu';
 import MenuOpenIcon from '@material-ui/icons/KeyboardArrowUp';
