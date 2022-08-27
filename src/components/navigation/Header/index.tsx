@@ -55,31 +55,17 @@ export default function AppHeader() {
           </a>
         </div>
         <div className={styles.nav}>
-          {APP_ROUTES.map(
-            (route) =>
-              route.isNavLinked &&
-              (route.path.startsWith('#') ? (
-                <HashLink
-                  to={route.path}
-                  key={route.path}
-                  className={clsx(styles.menu, {
-                    [styles.selected]: location.hash.startsWith(route.path),
-                  })}
-                >
-                  {route.title}
-                </HashLink>
-              ) : (
-                <Link
-                  to={route.path}
-                  key={route.path}
-                  className={clsx(styles.menu, {
-                    [styles.selected]: !location.hash && location.pathname.startsWith(route.path),
-                  })}
-                >
-                  {route.title}
-                </Link>
-              ))
-          )}
+          {APP_ROUTES.map((route) => (
+            <Link
+              to={route.path}
+              key={route.path}
+              className={clsx(styles.menu, {
+                [styles.selected]: !location.hash && location.pathname.startsWith(route.path),
+              })}
+            >
+              {route.title}
+            </Link>
+          ))}
           {account ? (
             <div className={styles.reflect}>{shortenAddress(account)}</div>
           ) : (
@@ -92,32 +78,17 @@ export default function AppHeader() {
       </div>
       <Collapse in={menuOpen} timeout="auto" unmountOnExit>
         <div className={styles.dropdown}>
-          {APP_ROUTES.map(
-            (route) =>
-              route.isNavLinked &&
-              route.path.startsWith('#') &&
-              (route.path.startsWith('#') ? (
-                <HashLink
-                  to={route.path}
-                  key={route.path}
-                  className={clsx(styles.menuDropdown, {
-                    [styles.selected]: location.hash.startsWith(route.path),
-                  })}
-                >
-                  {route.title}
-                </HashLink>
-              ) : (
-                <Link
-                  to={route.path}
-                  key={route.path}
-                  className={clsx(styles.menuDropdown, {
-                    [styles.selected]: !location.hash && location.pathname.startsWith(route.path),
-                  })}
-                >
-                  {route.title}
-                </Link>
-              ))
-          )}
+          {APP_ROUTES.map((route) => (
+            <Link
+              to={route.path}
+              key={route.path}
+              className={clsx(styles.menuDropdown, {
+                [styles.selected]: !location.hash && location.pathname.startsWith(route.path),
+              })}
+            >
+              {route.title}
+            </Link>
+          ))}
         </div>
       </Collapse>
     </header>

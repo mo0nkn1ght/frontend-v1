@@ -40,7 +40,7 @@ export default function TraitSector() {
             <p>
               <u>
                 This is not a Coming Soon project, our system is currently already running on Binance with plans to release soon on Ethereum chain and all of
-                Ethereum Layer 2 chains that qualify and then prepare to launch on other chains Luna was bridged too.
+                Ethereum Layer 2 chains that qualify and then prepare to launch on other chains Luna was bridged to.
               </u>
             </p>
             <p>
