@@ -1,6 +1,14 @@
 import { lazy } from 'react';
 import BurnBotSector from 'sectors/home/BurnBotSector';
 import BuySector from 'sectors/home/BuySector';
+import AboutSector from 'sectors/home/AboutSector';
+import RoadmapSector from 'sectors/home/RoadmapSector';
+import WhitepaperSector from 'sectors/home/WhitepaperSector';
+import WelcomeSector from 'sectors/home/WelcomeSector';
+import TeamSector from 'sectors/home/TeamSector';
+import FaqSector from 'sectors/home/FaqSector';
+import TokenomicsSector from 'sectors/home/TokenomicsSector';
+import MultiChainSector from 'sectors/home/MultiChainSector';
 
 import { RouteType } from './types';
 
@@ -13,7 +21,7 @@ const APP_ROUTES: RouteType[] = [
   },
   {
     path: '/#about',
-    component: undefined,
+    component: AboutSector,
     title: 'About',
     isNavLinked: true,
   },
@@ -25,7 +33,7 @@ const APP_ROUTES: RouteType[] = [
   },
   {
     path: '/#tokenomics',
-    component: undefined,
+    component: TokenomicsSector,
     title: 'Tokennomics',
     isNavLinked: true,
   },
@@ -37,31 +45,31 @@ const APP_ROUTES: RouteType[] = [
   },
   {
     path: '/#whitepaper',
-    component: undefined,
+    component: WhitepaperSector,
     title: 'Whitepaper',
     isNavLinked: true,
   },
   {
     path: '/#multichain',
-    component: undefined,
+    component: MultiChainSector,
     title: 'MultiChain',
     isNavLinked: true,
   },
   {
     path: '/#roadmap',
-    component: undefined,
+    component: RoadmapSector,
     title: 'Roadmap',
     isNavLinked: true,
   },
   {
     path: '/#faq',
-    component: undefined,
+    component: FaqSector,
     title: 'FAQ',
     isNavLinked: true,
   },
   {
     path: '/#team',
-    component: undefined,
+    component: TeamSector,
     title: 'Team',
     isNavLinked: true,
   },

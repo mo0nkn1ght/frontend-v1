@@ -118,7 +118,7 @@ header {
         height: 50px;
         min-width: inherit;
         background: transparent;
-        color: $white;
+        color: $primary;
         margin-right: 8px;
       }
     }
@@ -160,7 +160,7 @@ header {
   .menuDropdown {
     text-decoration: none;
     color: $white;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
     @include marginLeft;
     position: relative;
