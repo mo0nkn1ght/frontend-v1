@@ -15,9 +15,9 @@ export default function AboutSector() {
               After the utter collapse of Terra Luna, many holders of WLUNA and the original LUNA(LUNC) were abandoned by Terra Labs, with little to no support
               on direction, detailed updates, and co-operation with other large entities leaving many scratching their heads. Star System Labs was created as a
               response to the abandonment of LUNC/WLUNA holders to give a truly community run, and rewarded project that puts the holders first. One of the main
-              focus of phase 1 is to <b>BURN</b> Wrapped Luna, giving the Luna Community a 30% burn option to more aggressively reduce the supply of LUNC. Not
-              only are we providing a service that brings a more aggressive burn than the laughable 1.2% burn rate offered, but we also provide Wrapped Luna as
-              rewards in many forms. But how can Star System Labs manage this and provide a robust and secure community run project?
+              items of phase 1 is to <b>BURN</b> Luna Classic, giving the Luna Community a 30% burn option to more aggressively reduce the supply of LUNC. Not
+              only are we providing a service that brings a more substantial burn rate than the laughable 1.2% burn rate offered, but we also provide Wrapped
+              Luna as rewards in many forms. But how can Star System Labs manage this and provide a robust and secure community run project?
             </p>
             <p></p>
             <p>

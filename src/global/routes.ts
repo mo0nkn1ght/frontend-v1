@@ -4,7 +4,6 @@ import BuySector from 'sectors/home/BuySector';
 import AboutSector from 'sectors/home/AboutSector';
 import RoadmapSector from 'sectors/home/RoadmapSector';
 import WhitepaperSector from 'sectors/home/WhitepaperSector';
-import WelcomeSector from 'sectors/home/WelcomeSector';
 import TeamSector from 'sectors/home/TeamSector';
 import FaqSector from 'sectors/home/FaqSector';
 import TokenomicsSector from 'sectors/home/TokenomicsSector';
