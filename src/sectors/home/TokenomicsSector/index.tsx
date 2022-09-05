@@ -24,10 +24,10 @@ export default function TokenomicsSector() {
               <b>Wrapped Luna Classic Dividends - 5%</b>
             </p>
             <p>
-              <b>Wrapped Luna Burn - 1%</b>
+              <b>Wrapped Luna Burn - 2%</b>
             </p>
             <p>
-              <b>Vault - 2%</b>
+              <b>LP Injection - 1%</b>
             </p>
             <p>
               <b>Marketing Fund - 1%</b>
