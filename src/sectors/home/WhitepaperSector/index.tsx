@@ -36,7 +36,7 @@ export default function TraitSector() {
             </p>
             <p>$MNBASE & $METO will have a 10% buy/sell tax. The 10% tax will be divided up as followed:</p>
             <p>
-              <b>- $MNBASE:</b> 1% $WLUNA burn, 5% community distribution, 2% liquidity injection, 1% Dev, 1% Marketing team.
+              <b>- $MNBASE:</b> 2% $WLUNA burn, 5% community distribution, 1% liquidity injection, 1% Dev, 1% Marketing team.
             </p>
             <p>
               <b>- $METO:</b> 8% LP injection ($MNBASE), 1% Dev, 1% Marketing team.

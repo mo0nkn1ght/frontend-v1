@@ -84,10 +84,10 @@ export default function TokenomicsSector() {
               <b>Development Fund - 1%</b>
             </p>
             <p>
-              <b>Otto the AutoBot - 80% of the supply</b>
+              <b>Otto the AutoBot - 94.5% of the supply</b>
             </p>
             <p>
-              <b>SSL Vault - 20% of the supply</b>
+              <b>SSL Vault - 5.5% of the supply</b>
             </p>
             <p className={styles.warning}>
               The Star System Labs team does not keep any Meteor tokens from the supply, the entire supply is for the community spread between the AutoBot and
