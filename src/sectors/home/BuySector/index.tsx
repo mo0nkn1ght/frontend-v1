@@ -284,22 +284,24 @@ export default function BuySector() {
                   <u>Moonbase Limits</u>
                 </p>
                 <p>
-                  Max Buy/Sell - <b className={styles.warning}>34550000 $MNBASE</b>
+                  Max Buy/Sell - <b className={styles.warning}>691000 $MNBASE</b>
                 </p>
                 <p>
-                  Max Wallet Amount - <b className={styles.warning}>69100000 $MNBASE</b>
+                  Max Wallet Amount - <b className={styles.warning}>6910000 $MNBASE</b>
                 </p>
+                <p>Buy/Sell Limits Delay - 55 Seconds</p>
               </div>
               <div className={styles.meteor}>
                 <p className={styles.smalltitle}>
                   <u>Meteor Limits</u>
                 </p>
                 <p>
-                  Max Buy/Sell - <b className={styles.warning}>34550 $METO</b>
+                  Max Buy/Sell - <b className={styles.warning}>100 $METO</b>
                 </p>
                 <p>
-                  Max Wallet Amount - <b className={styles.warning}>69100 $METO</b>
+                  Max Wallet Amount - <b className={styles.warning}>6910 $METO</b>
                 </p>
+                <p>Buy/Sell Limits Delay - 22 Seconds</p>
               </div>
             </div>
           </div>

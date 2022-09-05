@@ -12,22 +12,24 @@ export default function AboutSector() {
               <h2>About The Project</h2>
             </div>
             <p>
-              After the utter collapse of Terra Luna, many holders of WLUNA and the original LUNA(LUNC) were abandoned by Terra Labs, with little to no support
-              on direction, detailed updates, and co-operation with other large entities leaving many scratching their heads. Star System Labs was created as a
-              response to the abandonment of LUNC/WLUNA holders to give a truly community run, and rewarded project that puts the holders first. One of the main
-              items of phase 1 is to <b>BURN</b> Luna Classic, giving the Luna Community a 30% burn option to more aggressively reduce the supply of LUNC. Not
-              only are we providing a service that brings a more substantial burn rate than the laughable 1.2% burn rate offered, but we also provide Wrapped
-              Luna as rewards in many forms. But how can Star System Labs manage this and provide a robust and secure community run project?
+              Star System Labs was created as a response to the abandonment of LUNC/WLUNA holders to give a truly community run, and rewarded project that puts
+              the holders first. One of the main items of phase <b>ONE</b> is to <b className={styles.warning}>BURN</b> Luna Classic, giving the Luna Community a 30% burn option to more
+              aggressively reduce the supply of LUNC. This gives holders an option to take part of a 30% LUNC burn while at the same time maintaining 100% value
+              in a bonded token. Not only are we providing a service that brings a more substantial burn rate than the laughable 1.2% burn rate offered, but we
+              also provide Wrapped Luna Classic as rewards in many forms. But how can Star System Labs manage this and provide a robust and secure community run
+              project?
             </p>
             <p></p>
             <p>
-              Thus, we present MOONBASE ($MNBASE) & METEOR ($METO). The citizen will bring their $WLUNA and deposits into our WLuna Burn Bot (Otto the AutoBOT),
-              the citizen will then receive $MNBASE & $METO as a receipt of their deposit into our economic system. Just like how blood moves around the body,
-              $WLUNA will be the blood of our economic solar system and will benefit every citizen. The Citizens then can accumulate Wrapped Luna in two forms,
-              first is dividend rewards to Moonbase holders, second is to LP ( Liquidity Pool ) Token stakers. Ensuring that all the Wrapped Luna that goes
-              through the system is either burned <b>OR</b> redistributed to the community.{' '}
+              Intoducing, MOONBASE ($MNBASE) & METEOR ($METO)! The citizen will bring their $WLUNA (Wrapped Luna Classic) and deposits into our WLuna Burn Bot
+              (Otto the AutoBOT), the citizen will then receive $MNBASE & $METO as a receipt of their deposit into our economic system. This is <b className={styles.warning}>FULLY</b>{' '}
+              automated and the team does not touch any tokens during the process. Instead the bot directly sends 30% to the burn address while sending you 100%
+              value of the tokens in $MNBASE or $METO. THe remaining 70% head to a vault that will distribute the tokens to a LP reward payout system. Just like
+              how blood moves through the body, $WLUNA will be the blood of our economic solar system and will benefit every citizen. The Citizens then can
+              accumulate Wrapped Luna Classic in two forms, first is dividend rewards to Moonbase holders (automatic), second is to LP ( Liquidity Pool ) Token stakers (manual). Ensuring
+              that all the Wrapped Luna Classic that goes through the system is either burned <b className={styles.warning}>OR</b> redistributed to the community.{' '}
               <b className={styles.warning}>
-                The Team Does not get ANY Wrapped Luna from this process. 100% of it is community controlled for community rewards!
+                The Team Does not get ANY Wrapped Luna Classic from this process. 100% of it is community controlled for community rewards! The Multi-Sig Vault DOES NOT PAY THE TEAM, IT IS FULLY FOR COMMUNITY. WE WILL START VOTING SOON TO CONTROL FUNDS WITHIN THE VAULT.
               </b>
             </p>
             <p></p>
