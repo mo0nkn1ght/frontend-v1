@@ -15,7 +15,7 @@ export default function TokenomicsSector() {
               <b>Total Supply - 691,000,000</b>
             </p>
             <p>
-              <b>Wrapped Luna Ratio - 1:1,000</b>
+              <b>Wrapped Luna Classic Ratio - 1:1,000</b>
             </p>
             <p>
               <b>Total Trade Fee - 10%</b>
@@ -24,7 +24,7 @@ export default function TokenomicsSector() {
               <b>Wrapped Luna Classic Dividends - 5%</b>
             </p>
             <p>
-              <b>Wrapped Luna Burn - 2%</b>
+              <b>Wrapped Luna Classic Burn - 2%</b>
             </p>
             <p>
               <b>LP Injection - 1%</b>
@@ -69,7 +69,7 @@ export default function TokenomicsSector() {
               <b>Total Supply - 691,000</b>
             </p>
             <p>
-              <b>Wrapped Luna Ratio - 1:1,000,000</b>
+              <b>Wrapped Luna Classic Ratio - 1:1,000,000</b>
             </p>
             <p>
               <b>Total Trade Fee - 10%</b>

@@ -23,7 +23,7 @@ export default function FaqSector() {
     },
     {
       title: 'Why did I get less value than what I put in the AutoBOT?',
-      content: `One of the core goals of SSL is to burn $WLUNA. The citizen will deposit and Otto will burn on the citizens behalf. The citizen will receive a receipt token that will allow the citizen to collect $WLUNA from the collective pool.`,
+      content: `One of the core goals of SSL is to burn $WLUNA and maintain your value. The citizen will deposit and Otto will burn on the citizens behalf. The citizen will receive a bond token that will allow the citizen to gain automatic dividend payouts.`,
     },
     {
       title: 'What can the citizen do with the $WLUNA they have collected?',
@@ -37,7 +37,7 @@ export default function FaqSector() {
     {
       title: 'What can I do with $METO?',
       content:
-        '$METO will mainly be used to lock and aqcuire our planned governance voting token $COMET, but can also be used to add liquidity, then staked to earn passive $MNBASE or sold on the market.',
+        '$METO will mainly be used to vote, but can also be used to inject liquidity into another pair, we will also offer an LP staking option to earn passive $MNBASE.',
     },
     {
       title: 'What will be the start value of $MNBASE & $METO?',

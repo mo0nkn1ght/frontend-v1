@@ -13,14 +13,7 @@ interface DropdownProps {
   customClass?: string;
 }
 
-const Dropdown: FC<DropdownProps> = ({
-  placeholder,
-  options,
-  name,
-  value,
-  onChange,
-  customClass,
-}) => {
+const Dropdown: FC<DropdownProps> = ({ placeholder, options, name, value, onChange, customClass }) => {
   return (
     <div
       className={clsx(styles.dropdown, customClass, {

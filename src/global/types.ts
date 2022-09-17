@@ -3,4 +3,5 @@ export interface RouteType {
   component: React.ComponentType<any> | undefined;
   title: string;
   isNavLinked: boolean;
+  subMenu: any | undefined;
 }

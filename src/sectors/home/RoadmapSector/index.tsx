@@ -12,75 +12,70 @@ export default function RoadmapSector() {
             <h2>Roadmap</h2>
           </div>
           <div className={styles.item}>
-            <b>Ethereum Launch</b>
+            <b>
+              EVM Approach - Q3 2022 - <s>Completed</s>
+            </b>
+            <span>Currently running on BSC, plans for ETH launch TBD.</span>
+          </div>
+          <ArrowIcon className={styles.arrow} />
+          <div className={styles.item}>
+            <b>
+              LP Staking - Q3 2022 - <u>WIP</u>
+            </b>
+            <span>
+              Reward options for Citizens that provide LP to the Moonbase [MNBASE] or Meteor [METO] pairs, stake your LP tokens to gain even more Wrapped Luna
+              Classic [Wormhole].
+            </span>
+          </div>
+          <ArrowIcon className={styles.arrow} />
+          <div className={styles.item}>
+            <b>
+              Ethereum Launch - Q4 2022 - <u>WIP</u>
+            </b>
             <span>Launch on ETH chain and subsequent ETH Layer 2 chains that require support for the abandoned Wrapped Luna Holders.</span>
           </div>
           <ArrowIcon className={styles.arrow} />
           <div className={styles.item}>
-            <b>LP Injection</b>
+            <b>Sol Protocol Development - Q1 2023</b>
             <span>
-              A way to breath life into $WLUNA with direct injection of LP to the $WLUNA pair on any chain, although starting wtih injection towards $MNBASE
-              pairs untill we get our voice heard and coinbase admits to price manipulation using bots and smart contracts. The community can vote on what token
-              pair to inject LP into.
+              Our Official CosmOS Approach that will bring the worlds first true blockchain based bonds system to the market. A true support system for the
+              Terra Classic blockchain and its community. Currently in Development with planned public testnet.
             </span>
           </div>
           <ArrowIcon className={styles.arrow} />
           <div className={styles.item}>
-            <b>Jupiter UI</b>
-            <span>
-              A new way to track your Star System Labs position. Our UI v2 (Jupiter UI) will have an all in one solution for your Star System Labs asset
-              management. From Token reward traking to NFT viewing and staking, we are dedicated on bringing a single tool for everything. As well as Wrapped
-              Luna Token Metrics to have a solid, consistent source of tokenomic data on Wrapped Luna and Wrapped Lunc.
-            </span>
+            <b>Jupiter UI - Q1 2023</b>
+            <span>An all-in-one solution to manage all your assets with the Star System Labs system, from Terra Classic to EVM chains.</span>
           </div>
           <ArrowIcon className={styles.arrow} />
           <div className={styles.item}>
-            <b>Star System Labs NFT</b>
-            <span>An NFT branch of the Star System Labs Ecosystem in which NFTs will be staked to boost your reward in $WLUNA.</span>
-          </div>
-          <ArrowIcon className={styles.arrow} />
-          <div className={styles.item}>
-            <b>Governance</b>
-            <span>
-              A governance token to give the community a more active role in the direction of the SSL Ecosystem. This token will be used by the the community to
-              vote on what will be with the vault funds that are accumulating.
-            </span>
-          </div>
-          <ArrowIcon className={styles.arrow} />
-          <div className={styles.item}>
-            <b>Ask Me Anything</b>
-            <span>
-              AMAs will be held with the community on a re-occurring basis. Ensuring constant developer-community communication. Our team will also stay active
-              on our socials to make sure we hear the community and their needs.
-            </span>
-          </div>
-          <ArrowIcon className={styles.arrow} />
-          <div className={styles.item}>
-            <b>Mobile App</b>
+            <b>Mobile App - Q1 2023</b>
             <span>The mobile implementation of the Jupiter UI. More details TBD on functionality.</span>
           </div>
           <ArrowIcon className={styles.arrow} />
           <div className={styles.item}>
-            <b>WLUNA Meme Contest</b>
-            <span>Wrapped Luna Meme Contest to be held for the community! Rewards TBD!</span>
+            <b>Bridge - Q2 2023</b>
+            <span>
+              Our response to Terra Shuttle shutdown, a community and validator controlled bridge that will allow tranfer between EVM and CosmOS chains.
+            </span>
           </div>
           <ArrowIcon className={styles.arrow} />
           <div className={styles.item}>
-            <b>Security Audit</b>
-            <span>Smart Contract Security Audit for the entire SSL ecosystem, and upcoming smart contracts!</span>
+            <b>Security Audit - Q2 2023</b>
+            <span>Security Audit for the entire Star System Labs System.</span>
           </div>
-          <ArrowIcon className={styles.arrow} />
+          {/* <ArrowIcon className={styles.arrow} />
           <div className={styles.item}>
-            <b>Terra Classic Launch</b>
+            <b>Sol Launch</b>
             <span>Moonbase Protocol full launch on Terra Classic chain. 8% Burn fee direct on Terra Classic.</span>
-          </div>
+          </div>*/}
           <p></p>
           <p></p>
           <p></p>
           <p></p>
           <div className={styles.item}>
             <span>
-              <b>No dates will be provided due to the high volatility and unpredictable nature of the market and current world events.</b>
+              <b>No exact dates will be provided due to the high volatility and unpredictable nature of the market and current world events.</b>
             </span>
           </div>
         </div>

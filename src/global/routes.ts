@@ -7,7 +7,7 @@ import WhitepaperSector from 'sectors/home/WhitepaperSector';
 import TeamSector from 'sectors/home/TeamSector';
 import FaqSector from 'sectors/home/FaqSector';
 import TokenomicsSector from 'sectors/home/TokenomicsSector';
-import MultiChainSector from 'sectors/home/MultiChainSector';
+import JupiterSector from 'sectors/home/JupiterSector';
 
 import { RouteType } from './types';
 
@@ -15,62 +15,73 @@ const APP_ROUTES: RouteType[] = [
   {
     path: '/',
     component: lazy(() => import('pages/Home')),
-    title: '',
+    title: 'Home',
     isNavLinked: false,
+    subMenu: [],
   },
   {
-    path: '/#about',
+    path: '#',
     component: AboutSector,
     title: 'About',
     isNavLinked: true,
+    subMenu: [
+      {
+        path: '/#about',
+        component: AboutSector,
+        title: 'About',
+        isNavLinked: true,
+      },
+      {
+        path: '/#tokenomics',
+        component: TokenomicsSector,
+        title: 'Tokenomics',
+        isNavLinked: true,
+      },
+      {
+        path: '/#whitepaper',
+        component: WhitepaperSector,
+        title: 'Whitepaper',
+        isNavLinked: true,
+      },
+      {
+        path: '/#jupiter',
+        component: JupiterSector,
+        title: 'Jupiter UI',
+        isNavLinked: true,
+      },
+      {
+        path: '/#roadmap',
+        component: RoadmapSector,
+        title: 'Roadmap',
+        isNavLinked: true,
+      },
+      {
+        path: '/#faq',
+        component: FaqSector,
+        title: 'FAQ',
+        isNavLinked: true,
+      },
+      {
+        path: '/#team',
+        component: TeamSector,
+        title: 'Team',
+        isNavLinked: true,
+      },
+    ],
   },
   {
     path: '/burn',
     component: BurnBotSector,
     title: 'Burn',
     isNavLinked: true,
-  },
-  {
-    path: '/#tokenomics',
-    component: TokenomicsSector,
-    title: 'Tokennomics',
-    isNavLinked: true,
+    subMenu: [],
   },
   {
     path: '/buy',
     component: BuySector,
     title: 'Buy',
     isNavLinked: true,
-  },
-  {
-    path: '/#whitepaper',
-    component: WhitepaperSector,
-    title: 'Whitepaper',
-    isNavLinked: true,
-  },
-  {
-    path: '/#multichain',
-    component: MultiChainSector,
-    title: 'MultiChain',
-    isNavLinked: true,
-  },
-  {
-    path: '/#roadmap',
-    component: RoadmapSector,
-    title: 'Roadmap',
-    isNavLinked: true,
-  },
-  {
-    path: '/#faq',
-    component: FaqSector,
-    title: 'FAQ',
-    isNavLinked: true,
-  },
-  {
-    path: '/#team',
-    component: TeamSector,
-    title: 'Team',
-    isNavLinked: true,
+    subMenu: [],
   },
 ];
 

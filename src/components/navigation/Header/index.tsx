@@ -10,9 +10,60 @@ import Collapse from '@material-ui/core/Collapse';
 import Button from 'components/based/Button';
 import { shortenAddress, useEthers } from '@usedapp/core';
 import clsx from 'clsx';
+import { Menu, MenuItem, MenuProps } from '@material-ui/core';
+import { styled } from '@material-ui/styles';
 import WalletConnectionModal from 'components/composed/WalletConnectionModal';
+import { RouteType } from 'global/types';
 
 import styles from './index.module.scss';
+
+let APP_ROUTES_SMALL: RouteType[] = [];
+APP_ROUTES.map((ar) => {
+  if (ar.subMenu.length) {
+    APP_ROUTES_SMALL = APP_ROUTES_SMALL.concat(ar.subMenu);
+  } else {
+    APP_ROUTES_SMALL.push(ar);
+  }
+});
+
+console.log(APP_ROUTES_SMALL);
+
+const StyledMenu = styled((props: MenuProps) => (
+  <Menu
+    elevation={0}
+    anchorOrigin={{
+      vertical: 'bottom',
+      horizontal: 'left',
+    }}
+    transformOrigin={{
+      vertical: 'top',
+      horizontal: 'left',
+    }}
+    {...props}
+  />
+))(({}) => ({
+  '& .MuiPaper-root': {
+    borderRadius: 6,
+    marginTop: '30px',
+    minWidth: 180,
+    background: 'black',
+    boxShadow:
+      'rgb(255, 255, 255) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px',
+    '& .MuiMenu-list': {
+      padding: '4px 0',
+    },
+    '& .MuiMenuItem-root': {
+      '& .MuiSvgIcon-root': {
+        fontSize: 18,
+        marginRight: '1.5px',
+      },
+      '& a': {
+        textDecoration: 'none',
+        color: 'white',
+      },
+    },
+  },
+}));
 
 export default function AppHeader() {
   const location = useLocation();
@@ -27,6 +78,16 @@ export default function AppHeader() {
 
   const handleResize = () => {
     setMenuOpen(false);
+  };
+
+  const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
+  const open_mui = Boolean(anchorEl);
+  const handleClick = (event: React.MouseEvent<HTMLElement>) => {
+    console.log(event.currentTarget);
+    setAnchorEl(event.currentTarget);
+  };
+  const handleClose = () => {
+    setAnchorEl(null);
   };
 
   useEffect(() => {
@@ -55,17 +116,58 @@ export default function AppHeader() {
           </a>
         </div>
         <div className={styles.nav}>
-          {APP_ROUTES.map((route) => (
-            <Link
-              to={route.path}
-              key={route.path}
-              className={clsx(styles.menu, {
-                [styles.selected]: !location.hash && location.pathname.startsWith(route.path),
-              })}
-            >
-              {route.title}
-            </Link>
-          ))}
+          {/* Larger screens */}
+          {APP_ROUTES.map((route) =>
+            route.subMenu.length === 0 ? (
+              <Link
+                to={route.path}
+                key={route.path}
+                className={clsx(styles.menu, {
+                  [styles.selected]: !location.hash && location.pathname === route.path,
+                })}
+              >
+                {route.title}
+              </Link>
+            ) : (
+              <div>
+                <div
+                  className={clsx(styles.menu, {
+                    [styles.selected]: (!location.hash && location.pathname === route.path) || location.hash.startsWith(route.path),
+                  })}
+                  id="demo-customized-button"
+                  aria-controls={open_mui ? 'demo-customized-menu' : undefined}
+                  aria-haspopup="true"
+                  aria-expanded={open_mui ? 'true' : undefined}
+                  onClick={handleClick}
+                >
+                  {route.title}
+                </div>
+                <StyledMenu
+                  id="demo-customized-menu"
+                  MenuListProps={{
+                    'aria-labelledby': 'demo-customized-button',
+                  }}
+                  anchorEl={anchorEl}
+                  open={open_mui}
+                  onClose={handleClose}
+                >
+                  {route.subMenu.map((sm: any) => (
+                    <MenuItem key={sm.path} onClick={handleClose} disableRipple>
+                      <Link
+                        to={sm.path}
+                        key={sm.path}
+                        className={clsx(styles.menuDropdown, {
+                          [styles.selected]: !location.hash && location.pathname === route.path,
+                        })}
+                      >
+                        {sm.title}
+                      </Link>
+                    </MenuItem>
+                  ))}
+                </StyledMenu>
+              </div>
+            )
+          )}
           {account ? (
             <div className={styles.reflect}>{shortenAddress(account)}</div>
           ) : (
@@ -78,7 +180,7 @@ export default function AppHeader() {
       </div>
       <Collapse in={menuOpen} timeout="auto" unmountOnExit>
         <div className={styles.dropdown}>
-          {APP_ROUTES.map((route) => (
+          {APP_ROUTES_SMALL.map((route) => (
             <Link
               to={route.path}
               key={route.path}

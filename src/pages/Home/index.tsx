@@ -6,7 +6,7 @@ import WelcomeSector from 'sectors/home/WelcomeSector';
 import TeamSector from 'sectors/home/TeamSector';
 import FaqSector from 'sectors/home/FaqSector';
 import TokenomicsSector from 'sectors/home/TokenomicsSector';
-import MultiChainSector from 'sectors/home/MultiChainSector';
+import JupiterSector from 'sectors/home/JupiterSector';
 import { useLocation } from 'react-router-dom';
 
 import styles from './index.module.scss';
@@ -35,7 +35,7 @@ const HomePage = () => {
         <AboutSector />
         <TokenomicsSector />
         <WhitepaperSector />
-        <MultiChainSector />
+        <JupiterSector />
         <RoadmapSector />
         <FaqSector />
         <TeamSector />

@@ -12,32 +12,32 @@ export default function AboutSector() {
               <h2>About The Project</h2>
             </div>
             <p>
-              Star System Labs was created as a response to the abandonment of LUNC/WLUNA holders to give a truly community run, and rewarded project that puts
-              the holders first. One of the main items of phase <b>ONE</b> is to <b className={styles.warning}>BURN</b> Luna Classic, giving the Luna Community
-              a 30% burn option to more aggressively reduce the supply of LUNC. This gives holders an option to take part of a 30% LUNC burn while at the same
-              time maintaining 100% value in a bonded token. Not only are we providing a service that brings a more substantial burn rate than the laughable
-              1.2% burn rate offered, but we also provide Wrapped Luna Classic as rewards in many forms. But how can Star System Labs manage this and provide a
-              robust and secure community run project?
+              Star System Labs was created as a response to the Terra Crash to produce a true community focused project that places the people and the support
+              of Terra Classic Chain first. The initial issue to deal with in this case would be the exteremely high supply, first step would be phase{' '}
+              <b>ONE</b> which is meant to <b className={styles.warning}>BURN</b> Luna Classic, giving the Luna Community a 30% burn option to more aggressively
+              reduce the supply of LUNC. Giving holders an option to take part of a 30% LUNC burn while at the same time maintaining 100% value in a bonded
+              token. Not only are we providing a service that brings a more substantial burn rate, we also provide Wrapped Luna Classic as rewards in many
+              forms. But how can Star System Labs manage this and provide a robust and secure community run project?
             </p>
             <p></p>
             <p>
-              Intoducing, MOONBASE ($MNBASE) & METEOR ($METO)! The citizen will bring their $WLUNA (Wrapped Luna Classic) and deposits into our WLuna Burn Bot
-              (Otto the AutoBOT), the citizen will then receive $MNBASE & $METO as a receipt of their deposit into our economic system. This is{' '}
-              <b className={styles.warning}>FULLY</b> automated and the team does not touch any tokens during the process. Instead the bot directly sends 30% to
-              the burn address while sending you 100% value of the tokens in $MNBASE or $METO. THe remaining 70% head to a vault that will distribute the tokens
-              to a LP reward payout system. Just like how blood moves through the body, $WLUNA will be the blood of our economic solar system and will benefit
-              every citizen. The Citizens then can accumulate Wrapped Luna Classic in two forms, first is dividend rewards to Moonbase holders (automatic),
-              second is to LP ( Liquidity Pool ) Token stakers (manual). Ensuring that all the Wrapped Luna Classic that goes through the system is either
-              burned <b className={styles.warning}>OR</b> redistributed to the community.{' '}
+              Introducing, MOONBASE ($MNBASE) & METEOR ($METO)! The Citizen will bring their $WLUNA (Wrapped Luna Classic - both Wormhole and Terra Shuttle
+              variants work at the moment) and deposits into Otto the AutoBot, the Citizen will then receive bonds in the form of $MNBASE or $METO as a receipt
+              of their deposit into our economic system. This is <b className={styles.warning}>FULLY</b> automated and the team does not touch any tokens during
+              the process. Instead the bot directly sends 30% to the burn address while sending you 100% value of your tokens in $MNBASE or $METO. The remaining
+              70% is sent to a vault that will distribute the tokens to an LP reward system. The Citizen can accumulate Wrapped Luna Classic in two forms, with
+              a third planned, first is in the form of automatic dividend rewards paid direct to Moonbase holders, second is to LP ( Liquidity Pool ) Token
+              holders that stake their LP tokens locking them and the liquidity associated with them. Ensuring that all the Wrapped Luna Classic that goes
+              through the system is either burned <b className={styles.warning}>OR</b> redistributed to the community.{' '}
               <b className={styles.warning}>
-                The Team Does not get ANY Wrapped Luna Classic from this process. 100% of it is community controlled for community rewards! The Multi-Sig Vault
-                DOES NOT PAY THE TEAM, IT IS FULLY FOR COMMUNITY. WE WILL START VOTING SOON TO CONTROL FUNDS WITHIN THE VAULT.
+                The Team Does not get ANY [Wrapped] Luna Classic from this process. 100% of it is community controlled for community rewards! The Multi-Sig
+                Vault DOES NOT PAY THE TEAM, IT IS FULLY FOR COMMUNITY. WE WILL START VOTING SOON TO CONTROL FUNDS WITHIN THE VAULT.
               </b>
             </p>
             <p></p>
             <p>
-              As we launch on each smart chain that WLUNA is running on, there will be plenty of opportunities that allows the citizen to customize their
-              earning method & participation in our system.
+              As we launch on more smart chains, there will be plenty of opportunities that allows the Citizen to customize their earning method & participation
+              in our system.
             </p>
           </div>
         </div>

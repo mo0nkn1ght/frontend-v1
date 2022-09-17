@@ -28,7 +28,7 @@ const addresses: any = {
 // let loaded = false;
 
 export default function BurnBotSector() {
-  useScript('http://github.hubspot.com/odometer/odometer.js');
+  useScript('https://github.hubspot.com/odometer/odometer.js');
   useLink('css/odometer.css');
 
   const { account, chainId, switchNetwork } = useEthers();
