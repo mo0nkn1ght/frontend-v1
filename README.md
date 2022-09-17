@@ -1,6 +1,6 @@
 # Star System Labs Frontend-v1
 
-### Current Version - v1.4
+### Current Version - v1.5
 
 ### Current Features
 
@@ -13,6 +13,5 @@
 
 ### Coming Features
 
-* Claim Dividend Rewards for Moonbase Holders
 * Stake LP Tokens from MNBASE/BNB, METO/BNB, WLUNA(wormhole)/BNB <-[Wrapped Luna Classic Wormhole]
 * Claim LP Staking rewards (WLUNA - Wrapped Luna Classic Wormhole)
